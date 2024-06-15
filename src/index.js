@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const booksFilePath = path.join(__dirname, './books.json');
+const booksFilePath = path.join(__dirname, 'tmp', 'books.json');
 
 const getIndonesiaTime = () => {
   const timeZone = 'Asia/Jakarta';
