@@ -41,22 +41,22 @@ app.put('/api/books/:id', (req, res) => {
     }
     try {
       let books = JSON.parse(data);
-      res.send(books);
-
+      
       const bookIndex = books.findIndex(book => book.id === bookId);
       if (bookIndex === -1) {
         return res.status(404).send('Book not found');
       }
-
+      
       // Perbarui buku yang sesuai dengan ID
       books[bookIndex] = updatedBook;
-
+      res.send(books);
+      
 
       // Tulis kembali ke books.json
       fs.writeFile(booksFilePath, JSON.stringify(books, null, 2), (err) => {
         if (err) {
           console.error('Error writing books file:', err);
-          return res.status(500).send('Error writing books file');
+          return res.status(500).send('Error writing books file', err);
         }
         
         res.send({
