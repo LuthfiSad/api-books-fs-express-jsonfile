@@ -41,6 +41,7 @@ app.put('/api/books/:id', (req, res) => {
     }
     try {
       let books = JSON.parse(data);
+      return res.send(data);
 
       const bookIndex = books.findIndex(book => book.id === bookId);
       if (bookIndex === -1) {
@@ -50,7 +51,6 @@ app.put('/api/books/:id', (req, res) => {
       // Perbarui buku yang sesuai dengan ID
       books[bookIndex] = updatedBook;
 
-      return res.send(updatedBook);
 
       // Tulis kembali ke books.json
       fs.writeFile(booksFilePath, JSON.stringify(books, null, 2), (err) => {
