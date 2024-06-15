@@ -50,6 +50,8 @@ app.put('/api/books/:id', (req, res) => {
       // Perbarui buku yang sesuai dengan ID
       books[bookIndex] = updatedBook;
 
+      return res.send(updatedBook);
+
       // Tulis kembali ke books.json
       fs.writeFile(booksFilePath, JSON.stringify(books, null, 2), (err) => {
         if (err) {
