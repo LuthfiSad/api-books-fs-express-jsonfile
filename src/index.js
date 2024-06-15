@@ -49,7 +49,6 @@ app.put('/api/books/:id', (req, res) => {
       
       // Perbarui buku yang sesuai dengan ID
       books[bookIndex] = updatedBook;
-      res.send(books);
       
 
       // Tulis kembali ke books.json
