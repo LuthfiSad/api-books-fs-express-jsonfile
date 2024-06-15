@@ -102,7 +102,7 @@ app.post('/api/books/donate', (req, res) => {
 });
 
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.send("ini Link API Books nya <a href='/api/books'>Link</a>");
 });
 
