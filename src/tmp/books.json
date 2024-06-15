@@ -1,5 +1,6 @@
-[
-  {
+{
+  "books": [
+    {
       "id": 1,
       "title": "The Lord of the Rings",
       "author": "J. R. R. Tolkien",
@@ -12,8 +13,8 @@
       "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 15,
       "createdAt": "2024-06-14T08:30:00Z"
-  },
-  {
+    },
+    {
       "id": 2,
       "title": "1984",
       "author": "George Orwell",
@@ -26,8 +27,8 @@
       "image": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 3,
       "createdAt": "2024-06-14T09:00:00Z"
-  },
-  {
+    },
+    {
       "id": 3,
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
@@ -40,8 +41,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 4,
       "createdAt": "2024-06-14T09:30:00Z"
-  },
-  {
+    },
+    {
       "id": 4,
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
@@ -54,8 +55,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 2,
       "createdAt": "2024-06-14T10:00:00Z"
-  },
-  {
+    },
+    {
       "id": 5,
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
@@ -68,8 +69,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T10:30:00Z"
-  },
-  {
+    },
+    {
       "id": 6,
       "title": "Moby Dick",
       "author": "Herman Melville",
@@ -82,8 +83,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 9,
       "createdAt": "2024-06-14T11:00:00Z"
-  },
-  {
+    },
+    {
       "id": 7,
       "title": "War and Peace",
       "author": "Leo Tolstoy",
@@ -96,8 +97,8 @@
       "image": "https://images.unsplash.com/photo-1519241047957-be31d7379a5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 14,
       "createdAt": "2024-06-14T11:30:00Z"
-  },
-  {
+    },
+    {
       "id": 8,
       "title": "The Catcher in the Rye",
       "author": "J. D. Salinger",
@@ -110,8 +111,8 @@
       "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-14T12:00:00Z"
-  },
-  {
+    },
+    {
       "id": 9,
       "title": "The Hobbit",
       "author": "J. R. R. Tolkien",
@@ -124,8 +125,8 @@
       "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 4,
       "createdAt": "2024-06-14T12:30:00Z"
-  },
-  {
+    },
+    {
       "id": 10,
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
@@ -138,8 +139,8 @@
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T13:00:00Z"
-  },
-  {
+    },
+    {
       "id": 11,
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
@@ -152,8 +153,8 @@
       "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 8,
       "createdAt": "2024-06-14T13:30:00Z"
-  },
-  {
+    },
+    {
       "id": 12,
       "title": "The Odyssey",
       "author": "Homer",
@@ -166,8 +167,8 @@
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 11,
       "createdAt": "2024-06-14T14:00:00Z"
-  },
-  {
+    },
+    {
       "id": 13,
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
@@ -180,8 +181,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T14:30:00Z"
-  },
-  {
+    },
+    {
       "id": 14,
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
@@ -194,8 +195,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-14T15:00:00Z"
-  },
-  {
+    },
+    {
       "id": 15,
       "title": "Madame Bovary",
       "author": "Gustave Flaubert",
@@ -208,8 +209,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T15:30:00Z"
-  },
-  {
+    },
+    {
       "id": 16,
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
@@ -222,8 +223,8 @@
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T16:00:00Z"
-  },
-  {
+    },
+    {
       "id": 17,
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
@@ -236,8 +237,8 @@
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 4,
       "createdAt": "2024-06-14T16:30:00Z"
-  },
-  {
+    },
+    {
       "id": 18,
       "title": "Brave New World",
       "author": "Aldous Huxley",
@@ -250,8 +251,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T17:00:00Z"
-  },
-  {
+    },
+    {
       "id": 19,
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel García Márquez",
@@ -264,8 +265,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-14T17:30:00Z"
-  },
-  {
+    },
+    {
       "id": 20,
       "title": "The Iliad",
       "author": "Homer",
@@ -278,8 +279,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 8,
       "createdAt": "2024-06-14T18:00:00Z"
-  },
-  {
+    },
+    {
       "id": 21,
       "title": "Catch-22",
       "author": "Joseph Heller",
@@ -292,8 +293,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T18:30:00Z"
-  },
-  {
+    },
+    {
       "id": 22,
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
@@ -306,8 +307,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 9,
       "createdAt": "2024-06-14T19:00:00Z"
-  },
-  {
+    },
+    {
       "id": 23,
       "title": "Ulysses",
       "author": "James Joyce",
@@ -320,8 +321,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T19:30:00Z"
-  },
-  {
+    },
+    {
       "id": 24,
       "title": "The Count of Monte Cristo",
       "author": "Alexandre Dumas",
@@ -334,8 +335,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 8,
       "createdAt": "2024-06-14T20:00:00Z"
-  },
-  {
+    },
+    {
       "id": 25,
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
@@ -348,8 +349,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T20:30:00Z"
-  },
-  {
+    },
+    {
       "id": 26,
       "title": "Lolita",
       "author": "Vladimir Nabokov",
@@ -362,8 +363,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T21:00:00Z"
-  },
-  {
+    },
+    {
       "id": 27,
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
@@ -376,8 +377,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-14T21:30:00Z"
-  },
-  {
+    },
+    {
       "id": 28,
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
@@ -390,8 +391,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-14T22:00:00Z"
-  },
-  {
+    },
+    {
       "id": 29,
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
@@ -404,8 +405,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-14T22:30:00Z"
-  },
-  {
+    },
+    {
       "id": 30,
       "title": "War and Peace",
       "author": "Leo Tolstoy",
@@ -418,8 +419,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 8,
       "createdAt": "2024-06-14T23:00:00Z"
-  },
-  {
+    },
+    {
       "id": 31,
       "title": "The Odyssey",
       "author": "Homer",
@@ -432,8 +433,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 13,
       "createdAt": "2024-06-15T00:00:00Z"
-  },
-  {
+    },
+    {
       "id": 32,
       "title": "Moby-Dick",
       "author": "Herman Melville",
@@ -446,8 +447,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-15T00:30:00Z"
-  },
-  {
+    },
+    {
       "id": 33,
       "title": "A Tale of Two Cities",
       "author": "Charles Dickens",
@@ -460,8 +461,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T01:00:00Z"
-  },
-  {
+    },
+    {
       "id": 34,
       "title": "The Adventures of Huckleberry Finn",
       "author": "Mark Twain",
@@ -474,8 +475,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-15T01:30:00Z"
-  },
-  {
+    },
+    {
       "id": 35,
       "title": "Great Expectations",
       "author": "Charles Dickens",
@@ -488,8 +489,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-15T02:00:00Z"
-  },
-  {
+    },
+    {
       "id": 36,
       "title": "Dracula",
       "author": "Bram Stoker",
@@ -502,8 +503,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-15T02:30:00Z"
-  },
-  {
+    },
+    {
       "id": 37,
       "title": "Frankenstein",
       "author": "Mary Shelley",
@@ -516,8 +517,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-15T03:00:00Z"
-  },
-  {
+    },
+    {
       "id": 38,
       "title": "The Metamorphosis",
       "author": "Franz Kafka",
@@ -530,8 +531,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T03:30:00Z"
-  },
-  {
+    },
+    {
       "id": 39,
       "title": "Heart of Darkness",
       "author": "Joseph Conrad",
@@ -544,8 +545,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T04:00:00Z"
-  },
-  {
+    },
+    {
       "id": 40,
       "title": "The Stranger",
       "author": "Albert Camus",
@@ -558,8 +559,8 @@
       "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 4,
       "createdAt": "2024-06-15T04:30:00Z"
-  },
-  {
+    },
+    {
       "id": 41,
       "title": "The Trial",
       "author": "Franz Kafka",
@@ -572,8 +573,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T05:00:00Z"
-  },
-  {
+    },
+    {
       "id": 42,
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
@@ -586,8 +587,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 6,
       "createdAt": "2024-06-15T05:30:00Z"
-  },
-  {
+    },
+    {
       "id": 43,
       "title": "Les Misérables",
       "author": "Victor Hugo",
@@ -600,8 +601,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-15T06:00:00Z"
-  },
-  {
+    },
+    {
       "id": 44,
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
@@ -614,8 +615,8 @@
       "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T06:30:00Z"
-  },
-  {
+    },
+    {
       "id": 45,
       "title": "The Sun Also Rises",
       "author": "Ernest Hemingway",
@@ -628,8 +629,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 4,
       "createdAt": "2024-06-15T07:00:00Z"
-  },
-  {
+    },
+    {
       "id": 46,
       "title": "The Old Man and the Sea",
       "author": "Ernest Hemingway",
@@ -642,8 +643,8 @@
       "image": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 7,
       "createdAt": "2024-06-15T07:30:00Z"
-  },
-  {
+    },
+    {
       "id": 47,
       "title": "Brave New World",
       "author": "Aldous Huxley",
@@ -656,8 +657,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 11,
       "createdAt": "2024-06-15T08:00:00Z"
-  },
-  {
+    },
+    {
       "id": 48,
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
@@ -670,8 +671,8 @@
       "image": "https://images.unsplash.com/photo-1475051991683-8c818a1e8ed1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 8,
       "createdAt": "2024-06-15T08:30:00Z"
-  },
-  {
+    },
+    {
       "id": 49,
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
@@ -684,8 +685,8 @@
       "image": "https://images.unsplash.com/photo-1503428587375-8075d9e91db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 9,
       "createdAt": "2024-06-15T09:00:00Z"
-  },
-  {
+    },
+    {
       "id": 50,
       "title": "Moby-Dick",
       "author": "Herman Melville",
@@ -698,8 +699,8 @@
       "image": "https://images.unsplash.com/photo-1559622218-577e070aa0ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
       "borrowCount": 5,
       "createdAt": "2024-06-15T09:30:00Z"
-  },
-  {
+    },
+    {
       "title": "Koocak",
       "author": "Luthfi",
       "description": "Ini buku bagus banget sumpah cuy keren abizzz",
@@ -712,5 +713,6 @@
       "id": 1718425539311,
       "borrowCount": 0,
       "createdAt": "2024-06-15T11:25:39.311+07:00"
-  }
-]
+    }
+  ]
+}
