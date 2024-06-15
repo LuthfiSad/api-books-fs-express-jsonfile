@@ -41,6 +41,7 @@ app.put('/api/books/:id', (req, res) => {
     }
     try {
       let books = JSON.parse(data);
+      res.send(books);
 
       const bookIndex = books.findIndex(book => book.id === bookId);
       if (bookIndex === -1) {
