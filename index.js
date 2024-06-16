@@ -1,9 +1,9 @@
 const jsonServer = require('json-server');
 const path = require('path');
-const { customMiddleware, apiPrefix } = require('./middlewares.js');
+const { customMiddleware, apiPrefix } = require('./middlewares');
 
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, 'books.json'));
+const router = jsonServer.router(path.join(__dirname, 'books.json')); // Use in-memory database
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
