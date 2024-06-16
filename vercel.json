@@ -5,13 +5,13 @@
       "src": "src/index.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": "src/tmp/books.json"
+        "includeFiles": "src/books.json"
       }
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/(.*)",
       "dest": "src/index.js"
     }
   ]
